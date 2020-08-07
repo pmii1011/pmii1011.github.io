@@ -14,7 +14,11 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
+<<<<<<< HEAD
   "/precache-manifest.4e29c3eaad97f0d0595c5b55181921c3.js"
+=======
+  "/precache-manifest.2849b6ad406ef906bd67f4c606fd0a72.js"
+>>>>>>> d2b55c9c09a3e3c5dcde483d02d1cdf27134e8b9
 );
 
 workbox.core.setCacheNameDetails({prefix: "PMII-Sepuluh-Nopember"});
