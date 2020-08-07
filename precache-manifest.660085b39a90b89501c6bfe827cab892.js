@@ -24,10 +24,6 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.71a2265d.js"
   },
   {
-    "revision": "f82ec6ba2dc4181db2af35c499462840",
-    "url": "/fonts/nucleo-icons.f82ec6ba.ttf"
-  },
-  {
     "revision": "426439788ec5ba772cdf94057f6f4659",
     "url": "/fonts/nucleo-icons.42643978.woff2"
   },
@@ -40,8 +36,16 @@ self.__precacheManifest = [
     "url": "/fonts/nucleo-icons.2569aaea.woff"
   },
   {
+    "revision": "f82ec6ba2dc4181db2af35c499462840",
+    "url": "/fonts/nucleo-icons.f82ec6ba.ttf"
+  },
+  {
     "revision": "46abbc4a676739dbd61f8a305cb63fd8",
     "url": "/img/nucleo-icons.46abbc4a.svg"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/fonts/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -50,10 +54,6 @@ self.__precacheManifest = [
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/fonts/fontawesome-webfont.fee66e71.woff"
-  },
-  {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/fonts/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -68,60 +68,60 @@ self.__precacheManifest = [
     "url": "/index.html"
   },
   {
-    "revision": "d6eee40ea428780b21dab5c0c9c69e50",
-    "url": "/.git/COMMIT_EDITMSG"
-  },
-  {
     "revision": "043122141de6108f46f70284d55e59bf",
     "url": "/.git/config"
+  },
+  {
+    "revision": "d6eee40ea428780b21dab5c0c9c69e50",
+    "url": "/.git/COMMIT_EDITMSG"
   },
   {
     "revision": "a0a7c3fff21f2aea3cfa1d0316dd816c",
     "url": "/.git/description"
   },
   {
-    "revision": "ce562e08d8098926a3862fc6e7905199",
-    "url": "/.git/hooks/applypatch-msg.sample"
-  },
-  {
     "revision": "564f64c19f8b9160eec72261895b949f",
     "url": "/.git/FETCH_HEAD"
-  },
-  {
-    "revision": "2b7ea5cee3c49ff53d41e00785eb974c",
-    "url": "/.git/hooks/post-update.sample"
   },
   {
     "revision": "4cf2d64e44205fe628ddd534e1151b58",
     "url": "/.git/HEAD"
   },
   {
+    "revision": "ce562e08d8098926a3862fc6e7905199",
+    "url": "/.git/hooks/applypatch-msg.sample"
+  },
+  {
+    "revision": "2b7ea5cee3c49ff53d41e00785eb974c",
+    "url": "/.git/hooks/post-update.sample"
+  },
+  {
     "revision": "054f9ffb8bfe04a599751cc757226dda",
     "url": "/.git/hooks/pre-applypatch.sample"
+  },
+  {
+    "revision": "579a3c1e12a1e74a98169175fb913012",
+    "url": "/.git/hooks/commit-msg.sample"
   },
   {
     "revision": "e4db8c12ee125a8a085907b757359ef0",
     "url": "/.git/hooks/pre-commit.sample"
   },
   {
-    "revision": "3c5989301dd4b949dfa1f43738a22819",
-    "url": "/.git/hooks/pre-push.sample"
-  },
-  {
     "revision": "2ad18ec82c20af7b5926ed9cea6aeedd",
     "url": "/.git/hooks/pre-receive.sample"
   },
   {
-    "revision": "ecbb0cb5ffb7d773cd5b2407b210cc3b",
-    "url": "/.git/hooks/fsmonitor-watchman.sample"
+    "revision": "56e45f2bcbc8226d2b4200f7c46371bf",
+    "url": "/.git/hooks/pre-rebase.sample"
   },
   {
     "revision": "2b5c047bdb474555e1787db32b2d2fc5",
     "url": "/.git/hooks/prepare-commit-msg.sample"
   },
   {
-    "revision": "579a3c1e12a1e74a98169175fb913012",
-    "url": "/.git/hooks/commit-msg.sample"
+    "revision": "517f14b9239689dff8bda3022ebd9004",
+    "url": "/.git/hooks/update.sample"
   },
   {
     "revision": "036208b4a1ab4a235d75c181e685e5a3",
@@ -144,20 +144,20 @@ self.__precacheManifest = [
     "url": "/.git/logs/refs/remotes/origin/master"
   },
   {
-    "revision": "517f14b9239689dff8bda3022ebd9004",
-    "url": "/.git/hooks/update.sample"
-  },
-  {
     "revision": "5ee44ba5a7c823e6290bd727ef060301",
     "url": "/.git/index"
+  },
+  {
+    "revision": "6a2ba7dc107435b5d1f7e04176d8ccb1",
+    "url": "/.git/objects/00/2247a596e1a41fe7a6ba03ada04f90392f2869"
   },
   {
     "revision": "6a308f63adf6bda4a905ddc4589401b0",
     "url": "/.git/objects/0c/a87700d887937046ce7b031f06d1519dbb0a03"
   },
   {
-    "revision": "56e45f2bcbc8226d2b4200f7c46371bf",
-    "url": "/.git/hooks/pre-rebase.sample"
+    "revision": "ecbb0cb5ffb7d773cd5b2407b210cc3b",
+    "url": "/.git/hooks/fsmonitor-watchman.sample"
   },
   {
     "revision": "ddde702520f8ef7bf354493bc26f1073",
@@ -172,28 +172,44 @@ self.__precacheManifest = [
     "url": "/.git/objects/1a/3565c74e3eab2daa8b2feae5d375a9b7e48e0b"
   },
   {
-    "revision": "6a2ba7dc107435b5d1f7e04176d8ccb1",
-    "url": "/.git/objects/00/2247a596e1a41fe7a6ba03ada04f90392f2869"
-  },
-  {
     "revision": "6f25981e5337b53875554104254d73a6",
     "url": "/.git/objects/0d/96d554869a4ae1d1b11b5ff0e030e0969b7492"
+  },
+  {
+    "revision": "3c5989301dd4b949dfa1f43738a22819",
+    "url": "/.git/hooks/pre-push.sample"
   },
   {
     "revision": "f2cd5cb7f6dde44bd0328663a33c90c0",
     "url": "/.git/objects/08/baf2826c2459055f511d12d5e8b5ff5af3b496"
   },
   {
-    "revision": "556934ab8079766bd0f519be3a8ade91",
-    "url": "/.git/objects/1c/b195d4f21d4eff4fde58bd98928639ba2c552c"
-  },
-  {
     "revision": "5f89faab2d9712a0190275948fe19606",
     "url": "/.git/objects/1a/5598505e4324b19be3e4dee9d2e10df541cc13"
   },
   {
+    "revision": "9997f02a73a3b6499911747b05d007ec",
+    "url": "/.git/objects/23/e0548e600d1ee177349e5f24f75b687a293222"
+  },
+  {
     "revision": "8d0782c275b0d61377e5b03a9e8262ff",
     "url": "/.git/objects/2f/33e2831e2ff0a88173a3d8ac3f50b434c0f279"
+  },
+  {
+    "revision": "556934ab8079766bd0f519be3a8ade91",
+    "url": "/.git/objects/1c/b195d4f21d4eff4fde58bd98928639ba2c552c"
+  },
+  {
+    "revision": "44ff56bb2be89bfb926b724970ceb6df",
+    "url": "/.git/objects/30/1632ce43dfce44daf7a8cdbde47cac19a019e7"
+  },
+  {
+    "revision": "f9c8e1c7a0d0245a98d0f951c712aa06",
+    "url": "/.git/objects/33/8ad4061b9ef6dc677865731de6ba562a82ac41"
+  },
+  {
+    "revision": "a94b676fbc77080858b4eeafe15bf383",
+    "url": "/.git/objects/32/c3ad7456bc4dda769960f626a54476d59b88cd"
   },
   {
     "revision": "092f6a7d34e4fdfe50a2f74bead65331",
@@ -204,28 +220,12 @@ self.__precacheManifest = [
     "url": "/.git/objects/22/27d5e0f09afc90005c23dae50cc82094517ac6"
   },
   {
-    "revision": "f9c8e1c7a0d0245a98d0f951c712aa06",
-    "url": "/.git/objects/33/8ad4061b9ef6dc677865731de6ba562a82ac41"
-  },
-  {
-    "revision": "9997f02a73a3b6499911747b05d007ec",
-    "url": "/.git/objects/23/e0548e600d1ee177349e5f24f75b687a293222"
-  },
-  {
-    "revision": "44ff56bb2be89bfb926b724970ceb6df",
-    "url": "/.git/objects/30/1632ce43dfce44daf7a8cdbde47cac19a019e7"
-  },
-  {
-    "revision": "a94b676fbc77080858b4eeafe15bf383",
-    "url": "/.git/objects/32/c3ad7456bc4dda769960f626a54476d59b88cd"
+    "revision": "b485406370fdb56248ec4e5fc074fb65",
+    "url": "/.git/objects/35/acda2fa1196aad98c2adf4378a7611dd713aa3"
   },
   {
     "revision": "65929f399c8e5af32f09352e4ceede44",
     "url": "/.git/objects/34/c14b450e4aa1fb0cd5a744497045828e19cbd0"
-  },
-  {
-    "revision": "b485406370fdb56248ec4e5fc074fb65",
-    "url": "/.git/objects/35/acda2fa1196aad98c2adf4378a7611dd713aa3"
   },
   {
     "revision": "b266c8f524f02fd15e6dfcc63fa5406c",
@@ -236,8 +236,8 @@ self.__precacheManifest = [
     "url": "/.git/objects/3a/592b5cbbd838361235757e8ea0e1f2b420839c"
   },
   {
-    "revision": "19a721c9993afa673b621392dabe076d",
-    "url": "/.git/objects/3b/8f06fb3ae0823d9dc679b86123f39c978851e5"
+    "revision": "30b9d54a978fd2cc496bf6957ac2b1ae",
+    "url": "/.git/objects/3a/9cb3efe268391763dc15e5eadb09250491d836"
   },
   {
     "revision": "72b4897c8983c3d8320581ee12b9d737",
@@ -248,16 +248,16 @@ self.__precacheManifest = [
     "url": "/.git/objects/4b/16f597ee78f9129a4f969850007a416d0e45e0"
   },
   {
-    "revision": "c4803747de568c4a46f3bab0c905ec15",
-    "url": "/.git/objects/40/0014a4b06eee3d0c0d54402a47ab2601b2862b"
+    "revision": "19a721c9993afa673b621392dabe076d",
+    "url": "/.git/objects/3b/8f06fb3ae0823d9dc679b86123f39c978851e5"
   },
   {
     "revision": "a6d94c674fc06b2783e3482230bc2135",
     "url": "/.git/objects/4c/93b8980da9b4bde0bdb0ad504290c39f60fbc9"
   },
   {
-    "revision": "30b9d54a978fd2cc496bf6957ac2b1ae",
-    "url": "/.git/objects/3a/9cb3efe268391763dc15e5eadb09250491d836"
+    "revision": "c4803747de568c4a46f3bab0c905ec15",
+    "url": "/.git/objects/40/0014a4b06eee3d0c0d54402a47ab2601b2862b"
   },
   {
     "revision": "15296277c723ff5d816d1880d36ba792",
@@ -272,24 +272,24 @@ self.__precacheManifest = [
     "url": "/.git/objects/55/49fd0e459a68ab88ab27801dbabbc9fd25c076"
   },
   {
+    "revision": "d5577dc34852005bb4d5b6332cc02db9",
+    "url": "/.git/objects/53/1f5dcc615024a4028c19852d0fad9c3e24b37c"
+  },
+  {
     "revision": "6d6f8d7a1f04619d4cecd54f151301a7",
     "url": "/.git/objects/3d/a7c9ff6d9f338ffed2d12314277e9240f3dd1b"
   },
   {
-    "revision": "aa0886a99909cf47af169f81a6727d73",
-    "url": "/.git/objects/57/bddb4cbd10a8916fbeee426dd97fb94fdda34c"
-  },
-  {
-    "revision": "836e8150dc64358c8e7a39d3b13b4ac9",
-    "url": "/.git/objects/57/f25f93d6590d5c1082eae34672e612facdab8b"
+    "revision": "e1c9f0e31ab5a8a10cbb0d7960acff3a",
+    "url": "/.git/objects/59/1f145045772779f13ec3b42286d9affaeb54a6"
   },
   {
     "revision": "60772e2d67c738344710488648c5a7d6",
     "url": "/.git/objects/4e/7c230ffd1c197ccb7e75bd90060cb27c3640c9"
   },
   {
-    "revision": "e1c9f0e31ab5a8a10cbb0d7960acff3a",
-    "url": "/.git/objects/59/1f145045772779f13ec3b42286d9affaeb54a6"
+    "revision": "aa0886a99909cf47af169f81a6727d73",
+    "url": "/.git/objects/57/bddb4cbd10a8916fbeee426dd97fb94fdda34c"
   },
   {
     "revision": "29959727b6eee68faf7ba2eac92d535e",
@@ -304,20 +304,24 @@ self.__precacheManifest = [
     "url": "/.git/objects/5e/44f6d578995859443a9e8eaf88b140100ab5da"
   },
   {
-    "revision": "d5577dc34852005bb4d5b6332cc02db9",
-    "url": "/.git/objects/53/1f5dcc615024a4028c19852d0fad9c3e24b37c"
+    "revision": "f1b8df4310d092f90b68bf6280ec680f",
+    "url": "/.git/objects/60/91c3f3a5ef83b7059d6d98b9c2282f337fa6a5"
+  },
+  {
+    "revision": "836e8150dc64358c8e7a39d3b13b4ac9",
+    "url": "/.git/objects/57/f25f93d6590d5c1082eae34672e612facdab8b"
   },
   {
     "revision": "61bc574086229ac8f63e1459d882230e",
     "url": "/.git/objects/6d/fbe275b0ecc514f58e684b57813b1d0cb3568e"
   },
   {
-    "revision": "c90f612e950aa5cc29610722c2231326",
-    "url": "/.git/objects/66/54c1a2d29733697932f58a974092355d12aef5"
-  },
-  {
     "revision": "a038a13e61ad2a51fefc89a1381ce2df",
     "url": "/.git/objects/76/51437382dca1034541eb34343b1f4b0a1dc22f"
+  },
+  {
+    "revision": "c90f612e950aa5cc29610722c2231326",
+    "url": "/.git/objects/66/54c1a2d29733697932f58a974092355d12aef5"
   },
   {
     "revision": "3f13a7e4633b03b5e4e98983e8737514",
@@ -326,10 +330,6 @@ self.__precacheManifest = [
   {
     "revision": "cc58e7f8c7136a95049f3d9dadacea1a",
     "url": "/.git/objects/72/023e61ce4a91c67126fdebafef45998bb08288"
-  },
-  {
-    "revision": "f1b8df4310d092f90b68bf6280ec680f",
-    "url": "/.git/objects/60/91c3f3a5ef83b7059d6d98b9c2282f337fa6a5"
   },
   {
     "revision": "61e1032e46f659b69b4a2682a89b1052",
@@ -356,12 +356,12 @@ self.__precacheManifest = [
     "url": "/.git/objects/76/9869179b351b9dae76a66101cec4e3ad4dd9d2"
   },
   {
-    "revision": "f05c0538f6bf798431a82a15584ed67d",
-    "url": "/.git/objects/84/9c2407ebcb87cff04ea2036340fe435ad06c97"
+    "revision": "90b6835828de85977d4cda50f68baf33",
+    "url": "/.git/objects/7a/8f7ad1c7dcf01530d0340ff44b1a76962616a8"
   },
   {
-    "revision": "7a5bf66a98685f6641254726e7b8ecb8",
-    "url": "/.git/objects/89/e79a800ebf87726dcbd31e1f63a164d6f14d62"
+    "revision": "f05c0538f6bf798431a82a15584ed67d",
+    "url": "/.git/objects/84/9c2407ebcb87cff04ea2036340fe435ad06c97"
   },
   {
     "revision": "f343ac39ddb78a2926f1b8f1923f16d8",
@@ -372,12 +372,12 @@ self.__precacheManifest = [
     "url": "/.git/objects/8c/df1fbbb4de50c18654acedc9c8ab37c77ea4cc"
   },
   {
-    "revision": "90b6835828de85977d4cda50f68baf33",
-    "url": "/.git/objects/7a/8f7ad1c7dcf01530d0340ff44b1a76962616a8"
-  },
-  {
     "revision": "f36bef5af3c36f25054db53812a72818",
     "url": "/.git/objects/85/5c845e538b65548118279537a04eab2ec6ef0d"
+  },
+  {
+    "revision": "7a5bf66a98685f6641254726e7b8ecb8",
+    "url": "/.git/objects/89/e79a800ebf87726dcbd31e1f63a164d6f14d62"
   },
   {
     "revision": "351f2ebe3b90d10277de64b8f552338e",
@@ -392,44 +392,44 @@ self.__precacheManifest = [
     "url": "/.git/objects/a3/e7564ddf7eaff5b0fb7ab818033ed1e9f6141d"
   },
   {
-    "revision": "8f7c6c7240c094679ebbb42699127844",
-    "url": "/.git/objects/99/3548433316a4fda59fc1b34afe0d119104db80"
-  },
-  {
     "revision": "b900ea0bf9550be1b8765ec5969b6e28",
     "url": "/.git/objects/99/9a208c35c628320f1be5bda2394dc9ec1b2701"
+  },
+  {
+    "revision": "22e61074b1d86c67913d842a51bb4d58",
+    "url": "/.git/objects/a5/8572b97089cc0a0d81234acd6111696142f154"
   },
   {
     "revision": "3a16d9415a5333d98e4c720062606679",
     "url": "/.git/objects/a8/ee080dbb3dc32a0a47bb43ce061190bec3d841"
   },
   {
-    "revision": "bdeb24fe4839b6dac2863b37d417421b",
-    "url": "/.git/objects/a1/988906f9a6127075162c615f5221acb22bfb07"
+    "revision": "8f7c6c7240c094679ebbb42699127844",
+    "url": "/.git/objects/99/3548433316a4fda59fc1b34afe0d119104db80"
   },
   {
-    "revision": "7a7147335a513c473d0e4ef5941db370",
-    "url": "/.git/objects/a6/754aefeb27f2811678899e4b0df4b966351ad8"
+    "revision": "bdeb24fe4839b6dac2863b37d417421b",
+    "url": "/.git/objects/a1/988906f9a6127075162c615f5221acb22bfb07"
   },
   {
     "revision": "2f8abd8d1047600501c6894e04c428a0",
     "url": "/.git/objects/ac/28d8642fc9809c5bd053614d205a2ee8592d9e"
   },
   {
-    "revision": "e729c54daac835b05ddeeecf300c8f7d",
-    "url": "/.git/objects/a9/46f176f25ca3307fd936056ec98cc998e3e578"
+    "revision": "7a7147335a513c473d0e4ef5941db370",
+    "url": "/.git/objects/a6/754aefeb27f2811678899e4b0df4b966351ad8"
   },
   {
-    "revision": "0477081f47df7aceafc968bf151fd539",
-    "url": "/.git/objects/ab/96810adf6e7862e0297f03958a1b18e0607c37"
+    "revision": "e729c54daac835b05ddeeecf300c8f7d",
+    "url": "/.git/objects/a9/46f176f25ca3307fd936056ec98cc998e3e578"
   },
   {
     "revision": "c87b5acb6a7995c999c4bee74e63efb8",
     "url": "/.git/objects/bf/aa5b814e621d37b8ececc9d5d97645f85233b4"
   },
   {
-    "revision": "22e61074b1d86c67913d842a51bb4d58",
-    "url": "/.git/objects/a5/8572b97089cc0a0d81234acd6111696142f154"
+    "revision": "0477081f47df7aceafc968bf151fd539",
+    "url": "/.git/objects/ab/96810adf6e7862e0297f03958a1b18e0607c37"
   },
   {
     "revision": "91492b69b759137fb07eb34b6510e20b",
@@ -440,24 +440,20 @@ self.__precacheManifest = [
     "url": "/.git/objects/c8/7096055b9fff58583c255056e0e7e963a9d593"
   },
   {
-    "revision": "df609f4dcd2d09fa309cd7f8454ed31c",
-    "url": "/.git/objects/c3/5f21890b7273c45bd8a1052ddf88e29bdaa7be"
-  },
-  {
     "revision": "2162c28cf3a506b8ac2b5739917a403c",
     "url": "/.git/objects/ba/5dbc6cefafcc68496f8e44e38aab48a484ab3b"
-  },
-  {
-    "revision": "ad13ae518837a67b88e220dbaac9f43f",
-    "url": "/.git/objects/d7/bf2821a7704b6a26c4acf5842a08e6fba200a4"
   },
   {
     "revision": "677a205535344974ed7324e3be1986da",
     "url": "/.git/objects/c1/75a4916da9eab1ef95716803f3039359c6153b"
   },
   {
-    "revision": "3656a0fa3495ca7189936d656f51927b",
-    "url": "/.git/objects/d5/6abe1070d3846ff93075a6b6ea52ab05b79997"
+    "revision": "ad13ae518837a67b88e220dbaac9f43f",
+    "url": "/.git/objects/d7/bf2821a7704b6a26c4acf5842a08e6fba200a4"
+  },
+  {
+    "revision": "df609f4dcd2d09fa309cd7f8454ed31c",
+    "url": "/.git/objects/c3/5f21890b7273c45bd8a1052ddf88e29bdaa7be"
   },
   {
     "revision": "75be76d19f7d7edba67e4e36c935f8af",
@@ -468,24 +464,28 @@ self.__precacheManifest = [
     "url": "/.git/objects/cb/1924708a78eadbf597dbbd8ca264e7afaa5c3c"
   },
   {
-    "revision": "da6583048cbec0fd612dc173a1097f6c",
-    "url": "/.git/objects/e6/a577119a4d2863781b7f184708b7670f238e5f"
+    "revision": "3656a0fa3495ca7189936d656f51927b",
+    "url": "/.git/objects/d5/6abe1070d3846ff93075a6b6ea52ab05b79997"
   },
   {
     "revision": "aaab18e0b5673fe3bc85662980dafea0",
     "url": "/.git/objects/e8/fd4a95a4fbcabc53b55edb1764f8c523053e6f"
   },
   {
+    "revision": "da6583048cbec0fd612dc173a1097f6c",
+    "url": "/.git/objects/e6/a577119a4d2863781b7f184708b7670f238e5f"
+  },
+  {
     "revision": "ece497476b8a42491f0606d4963b58da",
     "url": "/.git/objects/e2/94e0801c9ef9e50268f58c3a82a9e378c8b983"
   },
   {
-    "revision": "b4c20cf9283416d73fb932d220c1151c",
-    "url": "/.git/objects/e9/3710c83cb43eda7f6564be6832dd4905ff379c"
-  },
-  {
     "revision": "43c855cf0c9804aaf9d81d6eb9943e3d",
     "url": "/.git/objects/ed/552a5fc263f8eab08dd8d0322395c4a75bb5fe"
+  },
+  {
+    "revision": "b4c20cf9283416d73fb932d220c1151c",
+    "url": "/.git/objects/e9/3710c83cb43eda7f6564be6832dd4905ff379c"
   },
   {
     "revision": "5afcf963bbf7eaeb293b43818c42d851",
@@ -552,28 +552,20 @@ self.__precacheManifest = [
     "url": "/favicon.png"
   },
   {
-    "revision": "c85c75275c0a0a617f9e5accc2700908",
-    "url": "/img/brand/creativetim-white-slim.png"
+    "revision": "fe4792d482196a50cf9ae0d9d90b6493",
+    "url": "/img/backup favicon (2).png"
   },
   {
     "revision": "185288d13ed8e9d745bd279ea34667bf",
     "url": "/img/brand/blue BACKUP.png"
   },
   {
-    "revision": "fe4792d482196a50cf9ae0d9d90b6493",
-    "url": "/img/backup favicon (2).png"
-  },
-  {
-    "revision": "2438aec598879be1f8ee90f1f9eb2bdd",
-    "url": "/img/brand/blue.png"
+    "revision": "c85c75275c0a0a617f9e5accc2700908",
+    "url": "/img/brand/creativetim-white-slim.png"
   },
   {
     "revision": "7c73456e8eade4cf9c20219efc1891b4",
     "url": "/img/brand/favicon.png"
-  },
-  {
-    "revision": "be671d3c1486132f5bfbc9b9f2e6fad9",
-    "url": "/img/brand/white.png"
   },
   {
     "revision": "8e55eab46b5fcfc4a7a0b27cb07c8888",
@@ -584,24 +576,20 @@ self.__precacheManifest = [
     "url": "/img/brand/white backup.png"
   },
   {
+    "revision": "2438aec598879be1f8ee90f1f9eb2bdd",
+    "url": "/img/brand/blue.png"
+  },
+  {
     "revision": "594b1ee1d95ada356eaad078e9217932",
     "url": "/img/ill/ill-2.svg"
   },
   {
+    "revision": "be671d3c1486132f5bfbc9b9f2e6fad9",
+    "url": "/img/brand/white.png"
+  },
+  {
     "revision": "be2c9b99506518f99e75b1f23c877fba",
     "url": "/img/theme/duta-pmii-1011.png"
-  },
-  {
-    "revision": "1cab885a63a77ff5bbf1cd9881850eb0",
-    "url": "/img/theme/img-1-1200x1000.jpg"
-  },
-  {
-    "revision": "a87f4e3c160e2ee57749f336a85abaa9",
-    "url": "/img/theme/img-2-1200x1000.jpg"
-  },
-  {
-    "revision": "fde769aa06bf113884a43e8ca6f890d7",
-    "url": "/img/theme/img-3-1200x1000.jpg"
   },
   {
     "revision": "fd4a34d026fb9e0f4867188d47b11ba8",
@@ -612,8 +600,24 @@ self.__precacheManifest = [
     "url": "/img/theme/img-2-1200x1000 backup.jpg"
   },
   {
+    "revision": "fde769aa06bf113884a43e8ca6f890d7",
+    "url": "/img/theme/img-3-1200x1000.jpg"
+  },
+  {
+    "revision": "a87f4e3c160e2ee57749f336a85abaa9",
+    "url": "/img/theme/img-2-1200x1000.jpg"
+  },
+  {
+    "revision": "1cab885a63a77ff5bbf1cd9881850eb0",
+    "url": "/img/theme/img-1-1200x1000.jpg"
+  },
+  {
     "revision": "dc49ad52655e1d9d0552c026db3ef688",
     "url": "/img/theme/landing.jpg"
+  },
+  {
+    "revision": "15449a9e7f6198f59736aafb440208c5",
+    "url": "/img/theme/img-4-1200x1000.jpg"
   },
   {
     "revision": "20d702b83a06bdb2ea71c4c0cb9a7a56",
@@ -622,18 +626,6 @@ self.__precacheManifest = [
   {
     "revision": "beca74e2eeaa267f0b757b2afd4fa3b4",
     "url": "/img/theme/img-5-1200x1000.jpg"
-  },
-  {
-    "revision": "15449a9e7f6198f59736aafb440208c5",
-    "url": "/img/theme/img-4-1200x1000.jpg"
-  },
-  {
-    "revision": "70efe6fcaf0de170b6f706c510ce1640",
-    "url": "/img/theme/sahabat.png"
-  },
-  {
-    "revision": "b6030f2c3015ae0fe8460782f8eaef5a",
-    "url": "/img/theme/sahabati.png"
   },
   {
     "revision": "974088a1931e40895bac6db119c62448",
@@ -648,8 +640,8 @@ self.__precacheManifest = [
     "url": "/img/theme/sahabat-2.png"
   },
   {
-    "revision": "4351e1c8f5ce07954ebfbc052d0a699f",
-    "url": "/img/theme/duta-pmii-1011 backup.png"
+    "revision": "70efe6fcaf0de170b6f706c510ce1640",
+    "url": "/img/theme/sahabat.png"
   },
   {
     "revision": "be997d5226b992ffad34816870c6b7aa",
@@ -660,7 +652,15 @@ self.__precacheManifest = [
     "url": "/img/theme/team-3-800x800.jpg"
   },
   {
+    "revision": "4351e1c8f5ce07954ebfbc052d0a699f",
+    "url": "/img/theme/duta-pmii-1011 backup.png"
+  },
+  {
     "revision": "66618a418175ddf2ac8c47a241d327a8",
     "url": "/img/theme/team-4-800x800.jpg"
+  },
+  {
+    "revision": "b6030f2c3015ae0fe8460782f8eaef5a",
+    "url": "/img/theme/sahabati.png"
   }
 ];
