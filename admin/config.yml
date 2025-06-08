@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: pmii1011/pmii1011.github.io
-  branch: main
+  branch: gh-pages
   base_url: https://pmii1011.hrzpitulas17.workers.dev
   auth_endpoint: auth
 
