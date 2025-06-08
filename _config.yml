@@ -1,0 +1,20 @@
+title: PMII Sepuluh Nopember
+description: Website resmi PMII Sepuluh Nopember
+baseurl: "/"
+url: "https://pmii1011.github.io"
+
+theme: minima
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:title/
+
+collections:
+  posts:
+    output: true

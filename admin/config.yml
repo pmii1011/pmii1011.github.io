@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: pmii1011/pmii1011.github.io
+  branch: main
+  base_url: https://pmii1011.hrzpitulas17.workers.dev
+  auth_endpoint: auth
+
+media_folder: "assets/uploads"
+public_folder: "./assets/uploads"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Featured Image", name: "featured_image", widget: "image" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", hint: "Ringkasan pendek untuk tampil di kartu atau halaman utama." }
+      - { label: "Body", name: "body", widget: "markdown" }
